@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff; /* White background */
+  color: #003366; /* Dark blue text */
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #00509e; /* Blue header */
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Main Content */
+main {
+  padding: 40px 0;
+}
+
+h2 {
+  color: #00509e;
+  border-bottom: 3px solid #00509e;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Sections */
+.intro p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.products ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.how-to-buy ol {
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.how-to-buy ol li {
+  margin-bottom: 12px;
+}
+
+/* Footer */
+footer {
+  background-color: #003366; /* Darker blue footer */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
